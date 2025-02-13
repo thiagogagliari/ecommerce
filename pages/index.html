@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="/css/style.css" />
     <title>E-Commerce</title>
   </head>
@@ -14,26 +18,27 @@
           <li><a href="#">Home</a></li>
           <li><a href="#">SAC</a></li>
           <li><a href="#">Produtos</a></li>
-          <form class="nav-form" action="">
-            <input type="text" placeholder="Pesquise produtos" />
-          </form>
           <li><a href="#">Login</a></li>
+          <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="O que você procura?" />
+          </div>
           <img class="buy" src="/img/buy.png" alt="" />
         </ul>
       </nav>
     </div>
 
-    <div class="discounts">
+    <div class="section-title">
       <h1>Produtos em Destaques</h1>
-      <p class="discount-text">
+      <p class="section-title-text">
         Aproveitem os produtos mais vendidos do dia.
-        <em>Freté Grátis nas compras acima de R$ 100,00</em>
+        <em>Frete Grátis nas compras acima de R$ 100,00</em>
       </p>
     </div>
     <div class="container">
       <div class="product">
-        <a href="">
-          <img src="/img/vassouras.webp" alt="Produto 1" />
+        <a href="./product-1.html">
+          <img src="/img/vassouras.png" alt="Produto 1" />
           <h2>Vassouras</h2>
           <p>50 Vassouras com cabos. Preço de fábrica, "Atacado e Varejo".</p>
           <p class="price">R$ 199,99</p>
@@ -44,150 +49,112 @@
           <img src="/img/esponjas.jpg" alt="Produto 2" />
           <h2>Esponjas</h2>
           <p>Esponja de Limpeza Dupla Face 3M - Scotch Brite C/10Unidades</p>
-          <p class="price">R$ 42,99</p>
+          <p class="price">R$ 30,99</p>
         </a>
       </div>
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 3" />
-        <h2>Produto 3</h2>
-        <p>Álcool 46°Inpm Coperalcool Bacfree Clássico 500 ML</p>
-        <p class="price">R$ 90,00</p>
+        <a href="">
+          <img src="/img/papel-toalha.jpg" alt="Produto 3" />
+          <h2>Papel Toalha</h2>
+          <p>Papel toalha Snob multiuso folha tripla branca 100fls</p>
+          <p class="price">R$ 10,00</p>
+        </a>
       </div>
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 4" />
-        <h2>Produto 4</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 150,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
+        <a href="">
+          <img src="/img/veja.webp" alt="Produto 3" />
+          <h2>Veja Limpador Kit</h2>
+          <p>
+            Veja Multiuso Original é o produto ideal para a limpeza prática do
+            dia a dia de toda a sua casa. Elimina 100% das sujeiras¹, com fácil
+            aplicação e proporciona resultados imbatíveis².
+          </p>
+          <p class="price">R$ 110,00</p>
+        </a>
       </div>
     </div>
 
-    <div class="discounts">
-      <h1>Produtos em Promoção</h1>
-      <p class="discount-text">
-        Aproveitem as melhores ofertas do dia. Produtos com até
-        <em>50% de desconto</em>
+    <div class="section-title">
+      <h1>Produtos com Descontos</h1>
+      <p class="section-title-text">
+        Aproveitem nossos produtos com os melhores preços e
+        <em>descontos de até 50%</em>
       </p>
     </div>
+
     <div class="container">
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 1" />
-        <h2>Produto 1</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 100,00</p>
+        <a href="">
+          <img src="/img/lencos.png" alt="Produto 1" />
+          <h2>Lenço umidecido Johnson's Baby</h2>
+          <p>
+            Lenço Umedecido Johnson's Baby Limpeza e Suavidade Hipoalergênico
+            Sem Álcool 44 unidades
+          </p>
+          <p class="price">R$ 15,99<span>-25%</span></p>
+        </a>
       </div>
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 2" />
-        <h2>Produto 2</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 120,00</p>
+        <a href="">
+          <img src="/img/fraldas.jpg" alt="Produto 1" />
+          <h2>Fraldas Pampers</h2>
+          <p>Fraldas Pampers Confort Sec G 168 Unidades, Pampers</p>
+          <p class="price">R$ 247,99<span>-35%</span></p>
+        </a>
       </div>
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 3" />
-        <h2>Produto 3</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 90,00</p>
+        <a href="">
+          <img src="/img/detergente.png" alt="Produto 1" />
+          <h2>Detergente Ypê</h2>
+          <p>Detergente Lava Louças Ypê 500ml Caixa Fechada 24 Unidades</p>
+          <p class="price">R$ 78,99<span>-30%</span></p>
+        </a>
       </div>
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 4" />
-        <h2>Produto 4</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 150,00</p>
+        <a href="">
+          <img src="/img/map.png" alt="Produto 1" />
+          <h2>MOP Giratório 3 em 1</h2>
+          <p>
+            Mop Giratório 3 em1, balde com 12 litros e 3 opções de Refis, (
+            microfibra, tira pó e limpeza pesada) MOP8258, Flash Limp
+          </p>
+          <p class="price">R$ 99,99<span>-20%</span></p>
+        </a>
       </div>
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
+        <a href="">
+          <img src="/img/baldes.png" alt="Produto 1" />
+          <h2>Kit Baldes Plásticos</h2>
+          <p>Kit 10 Baldes Plásticos Alça Reforçada 5 Litros Coloridos</p>
+          <p class="price">R$ 39,99<span>-30%</span></p>
+        </a>
       </div>
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
+        <a href="">
+          <img src="/img/lavagaem-automotiva.png" alt="Produto 1" />
+          <h2>Kit Lavagem Automotiva</h2>
+          <p>Kit Lavagem Automotiva V-floc Blend Sintra Intense Vonixx</p>
+          <p class="price">R$ 179,99<span>-25%</span></p>
+        </a>
       </div>
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
+        <a href="">
+          <img src="/img/toalha.png" alt="Produto 1" />
+          <h2>Kit Toalha de Rosto</h2>
+          <p>
+            Kit 5 Toalha De Rosto Luxo Casa Laura Enxovais 40x70 Grossa Design
+            Moderno Várias Cores
+          </p>
+          <p class="price">R$ 34,99 <span>-15%</span></p>
+        </a>
       </div>
       <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
-      </div>
-      <div class="product">
-        <img src="/logo.jpg" alt="Produto 5" />
-        <h2>Produto 5</h2>
-        <p>Descrição breve do produto.</p>
-        <p class="price">R$ 110,00</p>
+        <a href="">
+          <img src="/img/amaciantes.png" alt="Produto 1" />
+          <h2>Amaciante Downy</h2>
+          <p>Downy Perfume Collection Místico - Amaciante Concentrado, 3L</p>
+          <p class="price">R$ 57,99 <span>-20%</span></p>
+        </a>
       </div>
     </div>
   </body>
